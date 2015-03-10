@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Processing.js</title>
+    <script src="../bower_components/Processing.js/processing.min.js"></script>
+</head>
+<body>
+<h1>Processing.js</h1>
+<script type="text/processing">
+    size(200, 200, OPENGL);
+    noStroke();
+    background(50);
+    lights();
+    translate(width/2+30, height/2, 0);
+    rotateX(-PI/6);
+    rotateY(PI/3 + 210/float(height) * PI);
+    box(45);
+    translate(0, 0, -50);
+    box(30);
+</script>
+<canvas></canvas>
+</body>
+</html>

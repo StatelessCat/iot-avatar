@@ -1,0 +1,9 @@
+{
+    "name": "iot-avatar",
+    "version": "0.0.1",
+    "main": "dist/iot-avatar.min.js",
+    "dependencies": {
+        "Processing.js": "1.4.8"
+    }
+}
+
