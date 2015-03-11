@@ -7,17 +7,14 @@
 </head>
 <body>
 <h1>Processing.js</h1>
-<script type="text/processing">
-    size(200, 200, OPENGL);
-    noStroke();
-    background(50);
-    lights();
-    translate(width/2+30, height/2, 0);
-    rotateX(-PI/6);
-    rotateY(PI/3 + 210/float(height) * PI);
-    box(45);
-    translate(0, 0, -50);
-    box(30);
+<script type="text/processing">size(800, 800, P3D);
+line(400, 400, 400, 400, 000, 00);
+
+stroke(255, 000, 000);
+line(400, 400, 400, 000, 400, 00);
+
+stroke(000, 000, 255);
+line(400, 400, 400, 000, 000, 400);
 </script>
 <canvas></canvas>
 </body>
